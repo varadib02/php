@@ -15,9 +15,10 @@ imageellipse($img, $s / 2, $s / 2, $s / 8, $s / 8, $black);
 imagearc($img,$s/2,$s/1.877,$s/16,$s/16,90,270,$black);
 imagearc($img,$s/2,$s/2.123,$s/16,$s/16,270,90,$black);
 
+imagefill($img,349,349,$black);
 
-imagefilledellipse($img, $s / 2, $s / 2, $s / 8, $s / 8, $black);
-imagefilledellipse($img, $s / 2, $s / 2, $s / 8, $s / 8, $black);
+imagefilledellipse($img, $s / 2, $s / 1.877, $s / 32, $s / 32, $black);
+imagefilledellipse($img, $s / 2, $s / 2.123, $s / 32, $s / 32, $white);
 
 imagepng($img);
 imagedestroy($img);
