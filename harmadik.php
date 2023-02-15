@@ -75,8 +75,20 @@ print AmegB(10,1).'<br />';
 
 //jel == *,+,-,/
 function szamologep($a,$b,$jel){
-
+    if($jel=='+'){
+        return $a+$b;
+    }
+    if($jel=='-'){
+        return $a-$b;
+    }
+    if($jel=='*'){
+        return $a*$b;
+    }
+    else{
+        return $a/$b;
+    }
 }
+print szamologep(2,4,'+');
 
 
 $szoveg='almale';
