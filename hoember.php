@@ -26,7 +26,13 @@ imageline($img, $s / 1.71, $s / 2, $s / 1.6, $s / 2.4, $black);
 imageline($img, $s / 2.39, $s / 2, $s / 2.6, $s / 2.4, $black);
 
 //gombok
+imagefilledellipse($img, $s / 2, $s / 2.2, $s / 50, $s / 50, $black);
+imagefilledellipse($img, $s / 2, $s / 2, $s / 50, $s / 50, $black);
+imagefilledellipse($img, $s / 2, $s / 1.8, $s / 50, $s / 50, $black);
 
+imagefilledellipse($img, $s / 2, $s / 1.6, $s / 50, $s / 50, $black);
+imagefilledellipse($img, $s / 2, $s / 1.5, $s / 50, $s / 50, $black);
+imagefilledellipse($img, $s / 2, $s / 1.4, $s / 50, $s / 50, $black);
 
 imagepng($img);
 imagedestroy($img);
